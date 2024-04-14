@@ -1,0 +1,2060 @@
+[
+  {
+    "discipline": "Cmp Sci",
+    "number": "1000",
+    "name": "COMPUTER SCIENCE EXPERIENCES",
+    "mandatory": true,
+    "pre": {},
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "1250",
+    "name": "INTRODUCTION TO COMPUTING",
+    "mandatory": true,
+    "pre": {},
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "2250",
+    "name": "PROGRAMMING AND DATA STRUCTURES",
+    "mandatory": true,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "1000",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "2261",
+    "name": "OBJECT-ORIENTED PROGRAMMING",
+    "mandatory": true,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2250",
+          "concurrent": true
+        }
+      ]
+    },
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "2700",
+    "name": "COMPUTER ORGANIZATION AND ARCHITECTURE",
+    "mandatory": true,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2250",
+          "concurrent": true
+        }
+      ]
+    },
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "2750",
+    "name": "LINUX ENVIRONMENT AND PROGRAMMING",
+    "mandatory": true,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2250",
+          "concurrent": false
+        },
+        {
+          "discipline": "Cmp Sci",
+          "number": "2700",
+          "concurrent": true
+        }
+      ]
+    },
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "3010",
+    "name": "WEB PROGRAMMING",
+    "mandatory": true,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2261",
+          "concurrent": true
+        }
+      ]
+    },
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "3130",
+    "name": "DESIGN AND ANALYSIS OF ALGORITHMS",
+    "mandatory": true,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2250",
+          "concurrent": false
+        },
+        {
+          "discipline": "MATH",
+          "number": "1320",
+          "concurrent": false
+        },
+        {
+          "discipline": "MATH",
+          "number": "3000",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "3410",
+    "name": "VIDEO GAME DESIGN AND DEVELOPMENT",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2261",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": false,
+    "fall": false,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "3411",
+    "name": "INTRODUCTION TO DATA VISUALIZATION",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "1250",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": false,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "3702",
+    "name": "INTRODUCTION TO CYBER THREATS AND DEFENSE",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2250",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": false,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "3780",
+    "name": "SOFTWARE SECURITY",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2261",
+          "concurrent": false
+        },
+        {
+          "discipline": "Cmp Sci",
+          "number": "2750",
+          "concurrent": false
+        },
+        {
+          "discipline": "Cmp Sci",
+          "number": "3010",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": false,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "3990",
+    "name": "UNDERGRADUATE INTERNSHIP",
+    "mandatory": false,
+    "pre": {},
+    "summer": false,
+    "fall": false,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4010",
+    "name": "WEB DEVELOPMENT WITH JAVA",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "3010",
+          "concurrent": false
+        },
+        {
+          "operator": "OR",
+          "nest": [
+            {
+              "discipline": "Cmp Sci",
+              "number": "2261",
+              "concurrent": false
+            },
+            {
+              "discipline": "INFSYS",
+              "number": "3806",
+              "concurrent": false
+            }
+          ]
+        }
+      ]
+    },
+    "summer": false,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4011",
+    "name": "WEB DEVELOPMENT WITH ADVANCED JAVASCRIPT",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "3010",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": false,
+    "fall": false,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4012",
+    "name": "INTRODUCTION TO ENTERPRISE MICROSERVICE DEVELOPMENT",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2261",
+          "concurrent": false
+        },
+        {
+          "discipline": "Cmp Sci",
+          "number": "3010",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": false,
+    "fall": false,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4151",
+    "name": "INTRODUCTION TO STATISTICAL METHODS FOR DATA SCIENCE",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "1250",
+          "concurrent": false
+        },
+        {
+          "discipline": "MATH",
+          "number": "1900",
+          "concurrent": false
+        },
+        {
+          "operator": "OR",
+          "nest": [
+            {
+              "discipline": "ANTHRO",
+              "number": "3220",
+              "concurrent": false
+            },
+            {
+              "discipline": "SOC",
+              "number": "3220",
+              "concurrent": false
+            },
+            {
+              "discipline": "BIOL",
+              "number": "4122",
+              "concurrent": false
+            },
+            {
+              "discipline": "CRIMIN",
+              "number": "2220",
+              "concurrent": false
+            },
+            {
+              "discipline": "ECON",
+              "number": "3100",
+              "concurrent": false
+            },
+            {
+              "discipline": "MATH",
+              "number": "1320",
+              "concurrent": false
+            },
+            {
+              "discipline": "POL SCI",
+              "number": "3000",
+              "concurrent": false
+            },
+            {
+              "discipline": "PSYCH",
+              "number": "2201",
+              "concurrent": false
+            }
+          ]
+        }
+      ]
+    },
+    "summer": false,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4020",
+    "name": "INTRODUCTION TO ANDROID APPS: ANDROID FUNDAMENTALS",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2261",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": false,
+    "fall": false,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4200",
+    "name": "PYTHON FOR SCIENTIFIC COMPUTING AND DATA SCIENCE",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "1250",
+          "concurrent": false
+        },
+        {
+          "operator": "OR",
+          "nest": [
+            {
+              "discipline": "MATH",
+              "number": "1100",
+              "concurrent": false
+            },
+            {
+              "discipline": "MATH",
+              "number": "1800",
+              "concurrent": false
+            }
+          ]
+        },
+        {
+          "operator": "OR",
+          "nest": [
+            {
+              "discipline": "ANTHRO",
+              "number": "3220",
+              "concurrent": false
+            },
+            {
+              "discipline": "SOC",
+              "number": "3220",
+              "concurrent": false
+            },
+            {
+              "discipline": "BIOL",
+              "number": "4122",
+              "concurrent": false
+            },
+            {
+              "discipline": "CRIMIN",
+              "number": "2220",
+              "concurrent": false
+            },
+            {
+              "discipline": "ECON",
+              "number": "3100",
+              "concurrent": false
+            },
+            {
+              "discipline": "MATH",
+              "number": "1320",
+              "concurrent": false
+            },
+            {
+              "discipline": "POL SCI",
+              "number": "3000",
+              "concurrent": false
+            },
+            {
+              "discipline": "PSYCH",
+              "number": "2201",
+              "concurrent": false
+            }
+          ]
+        }
+      ]
+    },
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4220",
+    "name": "INTRODUCTION TO IOS PROGRAMMING AND APPS",
+    "mandatory": false,
+    "pre": {
+      "operator": "OR",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2261",
+          "concurrent": false
+        },
+        {
+          "discipline": "INFSYS",
+          "number": "3806",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": true,
+    "fall": false,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4222",
+    "name": "IOS APPS",
+    "mandatory": false,
+    "pre": {
+      "operator": "OR",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "4220",
+          "concurrent": false
+        },
+        {
+          "discipline": "CONSENT",
+          "number": "CONSENT",
+          "concurrent": true
+        }
+      ]
+    },
+    "summer": false,
+    "fall": false,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4250",
+    "name": "PROGRAMMING LANGUAGES",
+    "mandatory": true,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2261",
+          "concurrent": false
+        },
+        {
+          "discipline": "Cmp Sci",
+          "number": "3010",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4280",
+    "name": "PROGRAM TRANSLATION PROJECT",
+    "mandatory": true,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2700",
+          "concurrent": false
+        },
+        {
+          "discipline": "Cmp Sci",
+          "number": "2750",
+          "concurrent": false
+        },
+        {
+          "discipline": "Cmp Sci",
+          "number": "3130",
+          "concurrent": false
+        },
+        {
+          "discipline": "Cmp Sci",
+          "number": "4250",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": false,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4300",
+    "name": "INTRODUCTION TO ARTIFICIAL INTELLIGENCE",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "3130",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": false,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4320",
+    "name": "INTRODUCTION TO EVOLUTIONARY COMPUTATION",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2261",
+          "concurrent": false
+        },
+        {
+          "discipline": "Cmp Sci",
+          "number": "2750",
+          "concurrent": false
+        },
+        {
+          "discipline": "Cmp Sci",
+          "number": "3130",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": false,
+    "fall": false,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4340",
+    "name": "INTRODUCTION TO MACHINE LEARNING",
+    "mandatory": false,
+    "pre": {
+      "operator": "OR",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "4342",
+          "concurrent": false
+        },
+        {
+          "operator": "AND",
+          "nest": [
+            {
+              "discipline": "Cmp Sci",
+              "number": "2261",
+              "concurrent": false
+            },
+            {
+              "discipline": "Cmp Sci",
+              "number": "3130",
+              "concurrent": false
+            }
+          ]
+        }
+      ]
+    },
+    "summer": false,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4342",
+    "name": "INTRODUCTION TO DATA MINING",
+    "mandatory": false,
+    "pre": {
+      "operator": "OR",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "4200",
+          "concurrent": false
+        },
+        {
+          "operator": "AND",
+          "nest": [
+            {
+              "discipline": "Cmp Sci",
+              "number": "2261",
+              "concurrent": false
+            },
+            {
+              "discipline": "Cmp Sci",
+              "number": "3130",
+              "concurrent": false
+            }
+          ]
+        }
+      ]
+    },
+    "summer": false,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4370",
+    "name": "INTRODUCTION TO BIOLOGICAL DATA SCIENCE",
+    "mandatory": false,
+    "pre": {
+      "operator": "OR",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "3130",
+          "concurrent": false
+        },
+        {
+          "discipline": "CONSENT",
+          "number": "CONSENT",
+          "concurrent": true
+        }
+      ]
+    },
+    "summer": false,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4390",
+    "name": "INTRODUCTION TO DEEP LEARNING",
+    "mandatory": false,
+    "pre": {
+      "operator": "OR",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "3130",
+          "concurrent": false
+        },
+        {
+          "discipline": "CONSENT",
+          "number": "CONSENT",
+          "concurrent": true
+        }
+      ]
+    },
+    "summer": false,
+    "fall": false,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4410",
+    "name": "INTRODUCTION TO COMPUTER GRAPHICS",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2250",
+          "concurrent": false
+        },
+        {
+          "discipline": "MATH",
+          "number": "2450",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": false,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4420",
+    "name": "INTRODUCTION TO DIGITAL IMAGE PROCESSING AND COMPUTER VISION",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "MATH",
+          "number": "1900",
+          "concurrent": false
+        },
+        {
+          "discipline": "MATH",
+          "number": "2450",
+          "concurrent": false
+        },
+        {
+          "discipline": "Cmp Sci",
+          "number": "2750",
+          "concurrent": false
+        },
+        {
+          "discipline": "Cmp Sci",
+          "number": "3130",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": false,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4500",
+    "name": "INTRODUCTION TO THE SOFTWARE PROFESSION",
+    "mandatory": true,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2261",
+          "concurrent": false
+        },
+        {
+          "discipline": "Cmp Sci",
+          "number": "3010",
+          "concurrent": false
+        },
+        {
+          "discipline": "MATH",
+          "number": "3000",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": false,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4610",
+    "name": "DATABASE MANAGEMENT SYSTEMS",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "3010",
+          "concurrent": false
+        },
+        {
+          "discipline": "MATH",
+          "number": "3000",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": false,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4700",
+    "name": "COMPUTER FORENSICS",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2750",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": false,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4730",
+    "name": "COMPUTER NETWORKS AND COMMUNICATIONS",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2750",
+          "concurrent": false
+        },
+        {
+          "discipline": "MATH",
+          "number": "1320",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": false,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4732",
+    "name": "INTRODUCTION TO CRYPTOGRAPHY FOR COMPUTER SECURITY",
+    "mandatory": false,
+    "pre": {
+      "operator": "OR",
+      "nest": [
+        {
+          "discipline": "MATH",
+          "number": "1100",
+          "concurrent": false
+        },
+        {
+          "discipline": "MATH",
+          "number": "1800",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": true,
+    "fall": false,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4740",
+    "name": "INTRODUCTION TO HIGH PERFORMANCE COMPUTING",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2750",
+          "concurrent": false
+        },
+        {
+          "discipline": "Cmp Sci",
+          "number": "3130",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": false,
+    "fall": false,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4750",
+    "name": "INTRODUCTION TO CLOUD COMPUTING",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2750",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": false,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4760",
+    "name": "OPERATING SYSTEMS",
+    "mandatory": true,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2750",
+          "concurrent": false
+        },
+        {
+          "discipline": "Cmp Sci",
+          "number": "3130",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": false,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4782",
+    "name": "INFORMATION SECURITY",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2750",
+          "concurrent": false
+        },
+        {
+          "operator": "OR",
+          "nest": [
+            {
+              "discipline": "Cmp Sci",
+              "number": "3702",
+              "concurrent": false
+            },
+            {
+              "discipline": "INFSYS",
+              "number": "3848",
+              "concurrent": false
+            },
+            {
+              "discipline": "CONSENT",
+              "number": "CONSENT",
+              "concurrent": true
+            }
+          ]
+        }
+      ]
+    },
+    "summer": false,
+    "fall": false,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4792",
+    "name": "INTRODUCTION TO MOBILE COMPUTING, NETWORKING, AND SECURITY",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "2750",
+          "concurrent": false
+        },
+        {
+          "operator": "OR",
+          "nest": [
+            {
+              "discipline": "Cmp Sci",
+              "number": "3702",
+              "concurrent": false
+            },
+            {
+              "discipline": "INFSYS",
+              "number": "3848",
+              "concurrent": false
+            },
+            {
+              "discipline": "CONSENT",
+              "number": "CONSENT",
+              "concurrent": true
+            }
+          ]
+        }
+      ]
+    },
+    "summer": false,
+    "fall": false,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4794",
+    "name": "INTRODUCTION TO SECURITY OF IOT SYSTEMS",
+    "mandatory": false,
+    "pre": {
+      "operator": "OR",
+      "nest": [
+        {
+          "discipline": "Cmp Sci",
+          "number": "4730",
+          "concurrent": false
+        },
+        {
+          "discipline": "CONSENT",
+          "number": "CONSENT",
+          "concurrent": true
+        }
+      ]
+    },
+    "summer": false,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "Cmp Sci",
+    "number": "4880",
+    "name": "INDIVIDUAL STUDIES IN COMPUTER SCIENCE",
+    "mandatory": false,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "CONSENT",
+          "number": "CONSENT",
+          "concurrent": true
+        }
+      ]
+    },
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "MATH",
+    "number": "1320",
+    "name": "INTRODUCTION TO PROBABILITY AND STATISTICS",
+    "mandatory": true,
+    "pre": {},
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "MATH",
+    "number": "1800",
+    "name": "Analytic Geometry and Calculus I",
+    "mandatory": true,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "CREDIT",
+          "number": "5",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "credit": 5
+  },
+  {
+    "discipline": "MATH",
+    "number": "1900",
+    "name": "ANALYTIC GEOMETRY AND CALCULUS II",
+    "mandatory": true,
+    "pre": {
+      "operator": "AND",
+      "nest": [
+        {
+          "discipline": "CREDIT",
+          "number": "5",
+          "concurrent": false
+        }
+      ]
+    },
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "credit": 5
+  },
+  {
+    "discipline": "MATH",
+    "number": "2450",
+    "name": "ELEMENTARY LINEAR ALGEBRA",
+    "mandatory": true,
+    "pre": {},
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "MATH",
+    "number": "3000",
+    "name": "DISCRETE STRUCTURES",
+    "mandatory": true,
+    "pre": {},
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "ENGL",
+    "number": "3130",
+    "name": "TECHNICAL WRITING",
+    "mandatory": true,
+    "pre": {},
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "credit": 3
+  },
+  {
+    "discipline": "MATHEMATICS",
+    "number": "1020",
+    "name": "Contemporary Math",
+    "type": "MS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "MATHEMATICS",
+    "number": "1030",
+    "name": "College Algebra",
+    "type": "MS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "MATHEMATICS",
+    "number": "1045",
+    "name": "Pre-Calculus",
+    "type": "MS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 5,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "ASTRONOMY",
+    "number": "1001",
+    "name": "Cosmic Evolution Introductory Astronomy",
+    "type": "NS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "ASTRONOMY",
+    "number": "1001A",
+    "name": "Cosmic Evolution/Introduction Astronomy",
+    "type": "NS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "BIOLOGY",
+    "number": "1050",
+    "name": "Introductory to Astronomy I",
+    "type": "NS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "BIOLOGY",
+    "number": "1012",
+    "name": "General Biology",
+    "type": "NS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "BIOLOGY",
+    "number": "1012 & 1013",
+    "name": "General Biology, General Biology Laboratory",
+    "type": "NS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 4,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "BIOLOGY",
+    "number": "1831",
+    "name": "Introductory Biology: From Molecules to Organisms",
+    "type": "NS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 5,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "BIOLOGY",
+    "number": "1821",
+    "name": "Introductory Biology: Organisms and the Environment",
+    "type": "NS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 5,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "BIOLOGY",
+    "number": "1831",
+    "name": "Introductory Biology: Organisms and the Environment",
+    "type": "NS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 5,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "CHEMISTRY",
+    "number": "1052",
+    "name": "Chemistry for the Health Professions",
+    "type": "NS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 4,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "CHEMISTRY",
+    "number": "1111",
+    "name": "Introductory Chemistry I",
+    "type": "NS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 5,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "GEOLOGY",
+    "number": "1001 & 1001L",
+    "name": "General Geology, General Geology Lab",
+    "type": "NS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 4,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "BIOLOGY",
+    "number": "1102",
+    "name": "Human Biology",
+    "type": "NS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "PHYSICS",
+    "number": "1001",
+    "name": "How Things Work",
+    "type": "NS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "GEOLOGY",
+    "number": "1053",
+    "name": "Oceanography",
+    "type": "NS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "PHYSICS",
+    "number": "1011",
+    "name": "Basic Physics I",
+    "type": "NS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "PHYSICS",
+    "number": "2111",
+    "name": "Physics: Mechanics and Heat",
+    "type": "NS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 4,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "ART HISTORY",
+    "number": "1100",
+    "name": "Introduction To Western Art",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "ART HISTORY",
+    "number": "1200",
+    "name": "Global Art History",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "FRENCH",
+    "number": "1001",
+    "name": "French Language & Culture I",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 5,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "FRENCH",
+    "number": "1002",
+    "name": "French Language and Culture II",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 5,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "SPANISH",
+    "number": "1001",
+    "name": "Spanish Language and Culture I",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 5,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "SPANISH",
+    "number": "1002",
+    "name": "Spanish Language and Culture II",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 5,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "ENGLISH",
+    "number": "1120",
+    "name": "Introduction to Literature",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "MUSIC HISTORY",
+    "number": "1001",
+    "name": "Intro to Music",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "MUSIC HISTORY",
+    "number": "1070",
+    "name": "Introduction to Jazz",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "MUSIC HISTORY",
+    "number": "1003",
+    "name": "History of Rock Music",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "MUSIC HISTORY",
+    "number": "1150",
+    "name": "Drumming Cultures of the World",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "MUSIC HISTORY",
+    "number": "2010",
+    "name": "History of Western Music I",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "MUSIC HISTORY",
+    "number": "2020",
+    "name": "History of Western Music II",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "ENSEMBLE PERFORMANCE",
+    "number": "1520",
+    "name": "Symphonic Band",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 1,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "ENSEMBLE PERFORMANCE",
+    "number": "1400",
+    "name": "University Chorus",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 1,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "ENSEMBLE PERFORMANCE",
+    "number": "1410",
+    "name": "The University Singers",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 1,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "ENSEMBLE PERFORMANCE",
+    "number": "1500",
+    "name": "University Orchestra",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 1,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "STUDIO ART",
+    "number": "1140",
+    "name": "Drawing I",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 1,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "PHILOSOPHY",
+    "number": "1150",
+    "name": "Introduction to Philosophy",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "PHILOSOPHY",
+    "number": "1160",
+    "name": "Critical Thinking",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "PHILOSOPHY",
+    "number": "1130",
+    "name": "Approaches to Ethics",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "THEATER",
+    "number": "1800",
+    "name": "Introduction to Theatre",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "HISTORY",
+    "number": "1031",
+    "name": "Topics in European Civilization: Emergence of Western Europe to 1715",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "HISTORY",
+    "number": "1032",
+    "name": "Topics in European Civilization: 1715 to the Present",
+    "type": "HFA",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "ANTHROPOLOGY",
+    "number": "1011",
+    "name": "Introduction to Cultural Anthropology",
+    "type": "SBS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "ECONOMICS",
+    "number": "1000",
+    "name": "Economics in Everyday Life",
+    "type": "SBS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "ECONOMICS",
+    "number": "1002",
+    "name": "Principles of Macroeconomics",
+    "type": "SBS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "GEOGRAPHY",
+    "number": "1001",
+    "name": "Principles of Microeconomics",
+    "type": "SBS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "GEOGRAPHY",
+    "number": "1001",
+    "name": "Introduction to Geography",
+    "type": "SBS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "GEOGRAPHY",
+    "number": "1002",
+    "name": "World Regions",
+    "type": "SBS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "HISTORY",
+    "number": "1001",
+    "name": "American Civilization to 1865",
+    "type": "SBS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "HISTORY",
+    "number": "1002",
+    "name": "American Civilization 1865-Present",
+    "type": "SBS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "POLITICAL SCIENCE",
+    "number": "1100",
+    "name": "American Politics",
+    "type": "SBS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "POLITICAL SCIENCE",
+    "number": "1800",
+    "name": "World Politics",
+    "type": "SBS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "POLITICAL SCIENCE",
+    "number": "1500",
+    "name": "Introduction to Comparative Politics",
+    "type": "SBS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "PSYCHOLOGY",
+    "number": "1003",
+    "name": "General Psychology",
+    "type": "SBS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "PSYCHOLOGY",
+    "number": "2268",
+    "name": "Human Growth and Development",
+    "type": "SBS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "SOCIOLOGY",
+    "number": "1010",
+    "name": "Introduction to Sociology",
+    "type": "SBS",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "COMMUNICATION",
+    "number": "1040",
+    "name": "Introduction to Public Speaking",
+    "type": "WOC",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "COMMUNICATION",
+    "number": "1030",
+    "name": "Interpersonal Communication I",
+    "type": "WOC",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "COMMUNICATION",
+    "number": "2230",
+    "name": "Small Group Communication",
+    "type": "WOC",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "ENGLISH",
+    "number": "2125",
+    "name": "Technical Writing",
+    "type": "WOC",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  },
+  {
+    "discipline": "ENGLISH",
+    "number": "1100",
+    "name": "First-Year Writing",
+    "type": "WOC",
+    "mandatory": false,
+    "pre": {},
+    "credit": 3,
+    "summer": true,
+    "fall": true,
+    "spring": true,
+    "general": true
+  }
+]
